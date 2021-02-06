@@ -33,80 +33,50 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.principal{
-    background: #CCCCCC;
-    padding: 30px;
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
 }
 
-strong {
-    font-weight: bold;
-}
-
-em {
-    font-style: italic;
-}
-
-.titulo-principal {
-    padding-left: 20px;
-}
-
-.titulo-centralizado {
-    text-align: center;
-    font-weight: bold;
-    font-size: 24px;
-    padding: 0 0 20px 0;
-}
-
-p {
-    text-align: center;
-    padding: 10px;
-}
-
-.beneficios-titulo {
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-    padding: 0 0 20px 0;
-}
-
-ul .itens {
-    list-style-type: disc;
-    padding: 0 0 5px 0;
-    margin: 0 0 0 40px;
-}
-
-#missao {
-    font-size: 20px;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-em strong {
-    color: #FF0000;
-}
-
-.itens {
-    font-style: italic;
-}
-
-.beneficios {
-    background: #ffffff;
-    padding: 20px;
-}
-
-.lista {
+.produtos li {
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
 
-.imagembeneficios {
-    width: 50%
+.produtos li:hover {
+    border-color: #c78c19;
 }
 
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos li:active {
+    border-color: #088c19;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
 footer {
     text-align: center;
     background: url("bg.jpg");
@@ -118,3 +88,27 @@ footer {
     font-size: 13px;
     margin: 20px 0 0;
 }
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+/* HomePage */
