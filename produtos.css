@@ -79,5 +79,6 @@ nav a:hover {
 }
 footer {
     text-align: center;
-    background: #CCCCCC;
+    background: url("bg.jpg");
+    padding: 40px 0;
 }
